@@ -1,0 +1,59 @@
+{
+  "pages": [
+    {
+      "title": "Jollof Food Review",
+      "slug": "jollof-food-review",
+      "page-type": "review",
+      "type": "customer_reviews",
+      "fields": {
+        "customer_name": "Jollof Food Review",
+        "review": "This food tastes horrible",
+        "date_created": "2023-05-01"
+      }
+    },
+    {
+      "title": "Flight Trip Review",
+      "slug": "flight-trip-review",
+      "page-type": "review",
+      "type": "customer_reviews",
+      "fields": {
+        "customer_name": "Flight Trip Review",
+        "review": "This flight was longggg",
+        "date_created": "2023-05-01"
+      }
+    },
+    {
+      "title": "Black boat UPDATED",
+      "slug": "black-boat-updated",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "name": "Black boat UPDATED",
+        "price": "5000"
+      }
+    },
+    {
+      "title": "Transparent Canoe",
+      "slug": "transparent-canoe",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "name": "BAD Transparent Canoe",
+        "price": "1.55"
+      }
+    }
+  ],
+  "collection":  {
+      "title": "Brand Page",
+      "key": "ecommerce_brand_page",
+      "collection-type": "ecommerce_brand_page",
+      "fields": [
+          {
+              "hero_section_text": "UPDATED Crazy hero section text here",
+              "mission_section_text": "Crazy mission section text for everyone here",
+              "product_collections": [],
+              "customer_reviews": []
+          }
+      ]
+  }
+}
