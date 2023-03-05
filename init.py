@@ -2,6 +2,7 @@ from requests import request, exceptions
 from dotenv import dotenv_values
 from argparse import ArgumentParser
 from json import load
+from time import sleep
 
 config = dotenv_values("migration-env/.env")
 BUTTERCMS_BASE_URL = "https://api.buttercms.com/v2"
@@ -29,6 +30,11 @@ parser.add_argument(
     action='store_true',
     help="Instruct script to print output at every step along the way",
 )
+parser.add_argument(
+   '-f',
+   '--file',
+   help="Specify the path to the data source file containing the migration data",
+)
 args = parser.parse_args()
 
 
@@ -49,6 +55,8 @@ class DataMigrator:
     @staticmethod
     def api_request(route, data, method="POST"):
         try:
+            # print("ENDPOINT =>", "{0}/{1}".format(BUTTERCMS_BASE_URL, route))
+
             req = request(
                 url="{0}/{1}".format(BUTTERCMS_BASE_URL, route),
                 json=data,
@@ -64,6 +72,7 @@ class DataMigrator:
     def create_pages(self):
         for index, page in enumerate(self.content['pages']):
             page['status'] = args.status
+
             req = self.api_request('pages', page)
 
             if req.status_code in [200, 202]:
@@ -77,12 +86,17 @@ class DataMigrator:
 
     def create_collection(self):
         self.create_pages()
+        sleep(20)
 
-        self.content['collection']['fields'][0]['product_collections'] = self.page_slugs['product_collections']
-        self.content['collection']['fields'][0]['customer_reviews'] = self.page_slugs['customer_reviews']
+        for item in self.content['collection']['fields'][0].values():
+            item['product_collections'] = self.page_slugs['product_collections']
+            item['customer_reviews'] = self.page_slugs['customer_reviews']
+
         self.content['collection']['status'] = args.status
 
-        req = self.api_request('content', self.content['collection'])
+        req = self.api_request('content/', self.content['collection'])
+
+        # print(req.json())
 
         if req.status_code in [200, 202]:
             if args.verbose:
@@ -92,10 +106,7 @@ class DataMigrator:
         if args.update == "collection":
             collection = self.content['collection']
 
-            print("ENDPOINT", 'content/{0}'.format(collection['key']))
             req = self.api_request('content/{0}/'.format(collection['key']), collection, "PATCH")
-
-            print(req.json())
 
             if req.status_code in [200, 202]:
                 if args.verbose:
@@ -115,13 +126,11 @@ class DataMigrator:
                     method="PATCH"
                 )
 
-                print(req)
-
                 if req.status_code in [200, 202]:
                     print('Data updated')
 
 
-Migrator = DataMigrator('./data.json')
+Migrator = DataMigrator(args.file)
 
 if args.update:
     Migrator.update_content()

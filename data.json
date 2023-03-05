@@ -1,59 +1,257 @@
 {
   "pages": [
     {
-      "title": "Jollof Food Review",
-      "slug": "jollof-food-review",
+      "title": "Sarah Johnson",
+      "slug": "sarah-johnson",
       "page-type": "review",
       "type": "customer_reviews",
       "fields": {
-        "customer_name": "Jollof Food Review",
-        "review": "This food tastes horrible",
-        "date_created": "2023-05-01"
+        "en": {
+          "customer_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669535/buttercms-upload-script/review-person-2.jpg",
+          "customer_name": "Sarah Johnson",
+          "review": "I recently purchased the Classic White Button-Down Shirt from this fashion brand and I have to say, I am extremely happy with my purchase. The quality of the fabric is amazing, it's soft and comfortable to wear all day long. The fit is perfect too, and it looks great whether I'm dressed up for work or going for a more casual look. I highly recommend this shirt to anyone looking for a classic, high-quality wardrobe staple",
+          "date_created": "2023-05-01"
+        },
+        "de": {
+          "customer_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669535/buttercms-upload-script/review-person-2.jpg",
+          "customer_name": "Sarah Johnson",
+          "review": "Ich habe kürzlich das Classic White Button-Down Hemd von dieser Modemarke gekauft und ich muss sagen, ich bin extrem glücklich mit meinem Kauf. Die Qualität des Stoffes ist erstaunlich, er ist weich und bequem den ganzen Tag zu tragen. Die Passform ist auch perfekt und es sieht toll aus, ob ich für die Arbeit angezogen bin oder einen lässigeren Look trage. Ich empfehle dieses Hemd sehr für jeden, der nach einem klassischen, hochwertigen Kleiderschrank-Grundnahrungsmittel sucht.",
+          "date_created": "2023-05-01"
+        }
       }
     },
     {
-      "title": "Flight Trip Review",
-      "slug": "flight-trip-review",
+      "title": "Michael Brown",
+      "slug": "michael-brown",
       "page-type": "review",
       "type": "customer_reviews",
       "fields": {
-        "customer_name": "Flight Trip Review",
-        "review": "This flight was longggg",
-        "date_created": "2023-05-01"
+        "en": {
+          "customer_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669535/buttercms-upload-script/review-person-1.webp",
+          "customer_name": "Michael Brown",
+          "review": "I bought the Faux Leather Biker Jacket from this fashion brand and I am blown away by the quality and style. The jacket is made with high-quality faux leather that looks and feels like the real thing, and the fit is perfect. The hardware is also very well-made and adds a touch of edginess to any outfit. I've already received compliments on it and I'm looking forward to wearing it for years to come.",
+          "date_created": "2023-05-01"
+        },
+        "de": {
+          "customer_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669535/buttercms-upload-script/review-person-1.webp",
+          "customer_name": "Michael Brown",
+          "review": "Ich habe die Faux-Leder Bikerjacke von dieser Modemarke gekauft und ich bin von der Qualität und dem Stil begeistert. Die Jacke ist aus hochwertigem Kunstleder gefertigt, das wie echt aussieht und sich anfühlt, und die Passform ist perfekt. Auch die Hardware ist sehr gut verarbeitet und verleiht jedem Outfit einen Hauch von Schärfe. Ich habe bereits Komplimente dafür erhalten und freue mich darauf, sie in den kommenden Jahren zu tragen.",
+          "date_created": "2023-05-01"
+        }
       }
     },
     {
-      "title": "Black boat UPDATED",
-      "slug": "black-boat-updated",
-      "page-type": "product",
-      "type": "product_collections",
+      "title": "Emily Rodriguez",
+      "slug": "emily-rodriguez",
+      "page-type": "review",
+      "type": "customer_reviews",
       "fields": {
-        "name": "Black boat UPDATED",
-        "price": "5000"
+        "en": {
+          "customer_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669535/buttercms-upload-script/review-person-3.jpg",
+          "customer_name": "Emily Rodriguez",
+          "review": "I recently purchased the Oversized Graphic Tee from this fashion brand and I have to say, I'm obsessed with it! The print is so fun and bold, and the oversized fit is perfect for a relaxed, casual look. I've already worn it several times and it's held up really well in the wash. I can't wait to see what other graphic tees this brand comes out with in the future.",
+          "date_created": "2023-05-01"
+        },
+        "de": {
+          "customer_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669535/buttercms-upload-script/review-person-3.jpg",
+          "customer_name": "Emily Rodriguez",
+          "review": "Ich habe kürzlich das Oversized Graphic Tee von dieser Modemarke gekauft und ich muss sagen, ich bin besessen davon! Der Druck ist so lustig und kühn, und die übergroße Passform ist perfekt für einen entspannten, lässigen Look. Ich habe es bereits mehrmals getragen und es hat sich im Waschen wirklich gut gehalten. Ich kann es kaum erwarten, zu sehen, welche anderen Graphic Tees diese Marke in Zukunft herausbringt.",
+          "date_created": "2023-05-01"
+        }
       }
     },
     {
-      "title": "Transparent Canoe",
-      "slug": "transparent-canoe",
+      "title": "Classic White Button-Down Shirt",
+      "slug": "classic-white-button-down-shirt",
       "page-type": "product",
       "type": "product_collections",
       "fields": {
-        "name": "BAD Transparent Canoe",
-        "price": "1.55"
+        "en": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-1.jpg",
+          "name": "Classic White Button-Down Shirt",
+          "price": "$89.99"
+        },
+        "de": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-1.jpg",
+          "name": "Klassisches weißes Button-Down-Hemd",
+          "price": "EUR 89.99"
+        }
+      }
+    },
+    {
+      "title": "Boho Floral Maxi Dress",
+      "slug": "boho-floral-maxi-dress",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "en": {
+          "isfeatured": true,
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-7.jpg",
+          "name": "Boho Floral Maxi Dress",
+          "price": "$1.55"
+        },
+        "de": {
+          "isfeatured": true,
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-7.jpg",
+          "name": "Boho-Blumen-Maxikleid",
+          "price": "EUR 1.55"
+        }
+      }
+    },
+    {
+      "title": "Slim-Fit Black Jeans",
+      "slug": "slim-fit-black-jeans",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "en": {
+          "isfeatured": true,
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-6.jpg",
+          "name": "slim-fit Black Jeans",
+          "price": "$99.99"
+        },
+        "de": {
+          "isfeatured": true,
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-6.jpg",
+          "name": "Schwarze Slim-Fit-Jeans",
+          "price": "EUR 99.99"
+        }
+      }
+    },
+    {
+      "title": "Striped Linen Shorts",
+      "slug": "striped-linen-shorts",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "en": {
+          "isfeatured": true,
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-8.jpg",
+          "name": "Striped Linen Shorts",
+          "price": "$69.99"
+        },
+        "de": {
+          "isfeatured": true,
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-8.jpg",
+          "name": "Gestreifte Leinen-Shorts",
+          "price": "EUR 69.99"
+        }
+      }
+    },
+    {
+      "title": "Oversized Graphic Tee",
+      "slug": "oversized-graphic-tee",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "en": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-8.jpg",
+          "name": "Oversized Graphic Tee",
+          "price": "$61.55"
+        },
+        "de": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-8.jpg",
+          "name": "Oversized Graphic Tee",
+          "price": "EUR 61.55"
+        }
+      }
+    },
+    {
+      "title": "Cozy Knit Sweater",
+      "slug": "cozy-knit-sweater",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "en": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-4.jpg",
+          "name": "Cozy Knit Sweater",
+          "price": "$149.99"
+        },
+        "de": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-4.jpg",
+          "name": "Gemütlicher Strickpullover",
+          "price": "EUR 149.99"
+        }
+      }
+    },
+    {
+      "title": "Faux Leather Biker Jacket",
+      "slug": "faux-leather-biker-jacket",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "en": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-3.jpg",
+          "name": "Faux Leather Biker Jacket",
+          "price": "$199.99"
+        },
+        "de": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-3.jpg",
+          "name": "Faux-Leder Bikerjacke",
+          "price": "EUR 199.99"
+        }
+      }
+    },
+    {
+      "title": "Floral Print Blouse",
+      "slug": "floral-print-blouse",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "en": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-2.jpg",
+          "name": "Floral Print Blouse",
+          "price": "$1.55"
+        },
+        "de": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-2.jpg",
+          "name": "Bluse mit Blumenmuster",
+          "price": "EUR 1.55"
+        }
+      }
+    },
+    {
+      "title": "Plaid Flannel Shirt",
+      "slug": "plaid-flannel-shirt",
+      "page-type": "product",
+      "type": "product_collections",
+      "fields": {
+        "en": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1620468926/shirts.jpg",
+          "name": "Plaid Flannel Shirt",
+          "price": "$59.99"
+        },
+        "de": {
+          "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1620468926/shirts.jpg",
+          "name": "Kariertes Flanellhemd",
+          "price": "EUR 59.99"
+        }
       }
     }
   ],
-  "collection":  {
-      "title": "Brand Page",
-      "key": "ecommerce_brand_page",
-      "collection-type": "ecommerce_brand_page",
-      "fields": [
-          {
-              "hero_section_text": "UPDATED Crazy hero section text here",
-              "mission_section_text": "Crazy mission section text for everyone here",
-              "product_collections": [],
-              "customer_reviews": []
-          }
-      ]
+  "collection": {
+    "title": "Brand Page",
+    "key": "ecommerce_brand_page",
+    "collection-type": "ecommerce_brand_page",
+    "fields": [
+      {
+        "de": {
+          "hero_section_text": "Doe line, Wo Mode auf Komfort und Qualität für Stil trifft",
+          "mission_section_text": "Bei unserer Kleidungsmarke lautet unsere Mission, hochwertige und modische Kleidung anzubieten und gleichzeitig Nachhaltigkeit und soziale Verantwortung zu fördern. Wir glauben, dass Mode sowohl stilvoll als auch ethisch sein kann und bemühen uns, Kleidung zu kreieren, die diese Werte widerspiegelt.\n\nWir engagieren uns für die Verwendung von umweltfreundlichen Materialien und nachhaltigen Herstellungsverfahren, um unsere Auswirkungen auf die Umwelt zu minimieren. Wir arbeiten auch mit fairen Handelspartnern zusammen, um sicherzustellen, dass unsere Kleidung ethisch produziert wird und dass die Menschen, die unsere Kleidung herstellen, mit Respekt und Würde behandelt werden.\n\nNeben unserem Engagement für Nachhaltigkeit setzen wir uns auch für Vielfalt und Inklusivität in der Modebranche ein. Wir bieten eine Vielzahl von Größen und Stilen an, um verschiedene Körpertypen zu berücksichtigen, und feiern Diversität in unseren Marketingkampagnen.\n\nWir glauben, dass Mode ein Ausdruck der Individualität ist und dass jeder die Möglichkeit haben sollte, sich durch seine Kleidungswahl auszudrücken. Aus diesem Grund sind wir bestrebt, hochwertige und modische Kleidung zu einem erschwinglichen Preis anzubieten, damit jeder gut aussehen und sich gut fühlen kann.\n\nInsgesamt lautet unsere Mission, eine Marke zu schaffen, die Kunden gerne unterstützen und bei der sie wissen, dass sie durch ihre Kleidungswahl einen positiven Einfluss auf die Welt ausüben. Wir freuen uns darauf, diesen Weg zu einer nachhaltigeren und inklusiveren Modeindustrie weiterzugehen, und hoffen, dass Sie sich uns anschließen werden.",
+          "mission_section_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677668816/buttercms-upload-script/mission-image.jpg",
+          "hero_section_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677668719/buttercms-upload-script/hero-image.jpg",
+          "customer_reviews": [],
+          "product_collections": []
+        },
+        "en": {
+          "hero_section_text": "Doe line, Where fashion meets comfort and quality for style",
+          "mission_section_text": "At our clothing brand, our mission is to provide high-quality, fashionable clothing while also promoting sustainability and social responsibility. We believe that fashion can be both stylish and ethical, and we strive to create clothing that reflects these values.\n\nWe are committed to using eco-friendly materials and sustainable manufacturing processes to minimize our impact on the environment. We also work with fair trade partners to ensure that our clothing is ethically produced and that the people who make our clothes are treated with respect and dignity.\n\nIn addition to our commitment to sustainability, we also believe in promoting diversity and inclusivity in the fashion industry. We offer a range of sizes and styles to fit a variety of body types and celebrate diversity in our marketing campaigns.\n\nWe believe that fashion is an expression of individuality and that everyone should have the opportunity to express themselves through their clothing choices. That's why we are dedicated to providing high-quality, fashionable clothing at an affordable price point, so that everyone can look and feel their best.\n\nOverall, our mission is to create a brand that customers can feel good about supporting, knowing that they are making a positive impact on the world through their clothing choices. We are excited to continue on this journey towards a more sustainable and inclusive fashion industry, and we hope you'll join us.",
+          "mission_section_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677668816/buttercms-upload-script/mission-image.jpg",
+          "hero_section_image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677668719/buttercms-upload-script/hero-image.jpg",
+          "customer_reviews": [],
+          "product_collections": []
+        }
+      }
+    ]
   }
 }
