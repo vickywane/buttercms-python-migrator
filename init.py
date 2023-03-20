@@ -4,7 +4,7 @@ from argparse import ArgumentParser
 from json import load
 from time import sleep
 
-config = dotenv_values("migration-env/.env")
+config = dotenv_values(".env")
 BUTTERCMS_BASE_URL = "https://api.buttercms.com/v2"
 
 parser = ArgumentParser(
