@@ -85,13 +85,13 @@
       "type": "product_collections",
       "fields": {
         "en": {
-          "isfeatured": true,
+          "is_featured": true,
           "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-7.jpg",
           "name": "Boho Floral Maxi Dress",
           "price": "$1.55"
         },
         "de": {
-          "isfeatured": true,
+          "is_featured": true,
           "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-7.jpg",
           "name": "Boho-Blumen-Maxikleid",
           "price": "EUR 1.55"
@@ -105,13 +105,13 @@
       "type": "product_collections",
       "fields": {
         "en": {
-          "isfeatured": true,
+          "is_featured": true,
           "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-6.jpg",
           "name": "slim-fit Black Jeans",
           "price": "$99.99"
         },
         "de": {
-          "isfeatured": true,
+          "is_featured": true,
           "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669874/buttercms-upload-script/dress-6.jpg",
           "name": "Schwarze Slim-Fit-Jeans",
           "price": "EUR 99.99"
@@ -125,13 +125,13 @@
       "type": "product_collections",
       "fields": {
         "en": {
-          "isfeatured": true,
+          "is_featured": true,
           "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-8.jpg",
           "name": "Striped Linen Shorts",
           "price": "$69.99"
         },
         "de": {
-          "isfeatured": true,
+          "is_featured": true,
           "image": "https://res.cloudinary.com/dkfptto8m/image/upload/v1677669873/buttercms-upload-script/dress-8.jpg",
           "name": "Gestreifte Leinen-Shorts",
           "price": "EUR 69.99"
